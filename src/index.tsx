@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import Cardapio from './page/Cardapio';
 
 ReactDOM.render(
   <React.StrictMode>
-    <div>Restaurante</div>
+    <Cardapio />
   </React.StrictMode>,
   document.getElementById('root')
 );
